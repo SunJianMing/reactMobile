@@ -1,0 +1,35 @@
+.header{
+  width: 100vw;
+  height: .9rem;
+  position: fixed;
+  left:0;
+  background-color: #323436;
+  .logo{
+    width: 1.84rem;
+    margin:.23rem auto 0;
+    display: block;
+  }
+  .header_btn_left,.header_btn_right{
+    width: .9rem;
+    height: .9rem;
+    position: absolute;
+    top:0;
+    text-align: center;
+    color:#d1d1d1;
+    line-height: .9rem;
+    font-size: .5rem;
+  }
+  .header_btn_left{
+    left:0;
+  }
+  .header_btn_right{
+    right:0
+  }
+  .header_user{
+    padding-right: .1rem;
+    text-align: right;
+    overflow: hidden;
+    font-size: .26rem;
+    text-overflow: ellipsis;
+  }
+}

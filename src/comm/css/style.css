@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "iconfont";
+  src:
+  url('../font/iconfont.ttf?t=1542271464917') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg?t=1542271464917#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+}
+.icon-hycaidan:before { content: "\e62e"; }
+
+.icon-home:before { content: "\e60f"; }
+
+.icon-zuanshi:before { content: "\e65d"; }
+
+.icon-kechengbiao:before { content: "\e6be"; }
+
+.icon-back:before { content: "\e60e"; }
+
+.icon-mima:before { content: "\e603"; }
+
+.icon-youxiang:before { content: "\e694"; }
+
+.icon-tuijian-:before { content: "\e62c"; }
+
+.icon-laoshishi:before { content: "\e82f"; }
+
+.icon-login_user:before { content: "\e622"; }
+
+.icon-jiangshi:before { content: "\e640"; }
+
+.icon-kefu:before { content: "\e604"; }
+
+.icon-liuyan:before { content: "\e61c"; }
+
+.icon-wenda:before { content: "\e62f"; }
+
+.icon-xiaoxi:before { content: "\e620"; }
+
+.icon-icon-:before { content: "\e676"; }
+
+.icon-yanzhengma:before { content: "\e60a"; }
+
+.icon-plane:before { content: "\e601"; }
+
+.icon-hangzhengguanli:before { content: "\e610"; }
+
+.icon-wenda1:before { content: "\e600"; }
+
+
+
+
+html{
+  font-size: 13.333333vw;
+}
+body{
+  font-size: .3rem;
+  -webkit-text-size-adjust:none;
+}
+body,h1,h2,h3,h4,p,dl,dd{
+  margin:0;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input,a{
+  -webkit-tap-highlight-color:rgba(0,0,0,0);
+  -webkit-appearance:none;
+}
+body * {
+  box-sizing: border-box;
+}
+.clear:before{
+  content: '';
+  display: table;
+}
+.clear:after{
+  content: '';
+  display: table;
+  clear:both;
+}
